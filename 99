@@ -1,0 +1,13 @@
+object HDKore : MainAPI() {
+    override val mainUrl = "https://hdkore.com"
+    override val name = "HDKore"
+
+    override suspend fun search(query: String) = searchHDKore(query)
+    override val mainPage = mainPageOf(
+        "1" to "Yeni Eklenenler",
+        "2" to "Popüler"
+    )
+    override suspend fun load(url: String) = loadHDKorePage(url)
+    override suspend fun loadLinks(url: String, isCasting: Boolean, subtitles: Boolean) =
+        hdKoreLoadLinks(url, isCasting, subtitles)
+}
