@@ -1,0 +1,12 @@
+{
+  "name": "Ahm Extensions",
+  "description": "HDKore CloudStream Provider",
+  "manifestVersion": 1,
+  "plugins": [
+    {
+      "name": "HDKore",
+      "url": "HDKore",
+      "version": 1
+    }
+  ]
+}
