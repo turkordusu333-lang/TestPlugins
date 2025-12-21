@@ -1,6 +1,6 @@
 {
-  "name": "Ahm Extensions",
-  "description": "HDKore CloudStream Provider",
+  "name": "Test Plugins",
+  "description": "CloudStream Test Plugins by you",
   "manifestVersion": 1,
   "plugins": [
     {
