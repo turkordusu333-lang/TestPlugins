@@ -1,6 +1,6 @@
 {
-  "name": "Test Plugins",
-  "description": "CloudStream Test Plugins by you",
+  "name": "HDKore Repo",
+  "description": "HDKore CloudStream Extension",
   "manifestVersion": 1,
   "plugins": [
     {
