@@ -1,0 +1,13 @@
+{
+  "name": "Ahmet YouTube Extensions",
+  "description": "Kendi YouTube kanalım için CloudStream eklentileri",
+  "manifestVersion": 1,
+  "plugins": [
+    {
+      "name": "Benim YouTube Kanalım",
+      "file": "plugins/ExampleProvider.cs3",
+      "version": 1,
+      "description": "YouTube kanalımdaki videolar"
+    }
+  ]
+}
