@@ -1,12 +1,11 @@
 {
-  "name": "HDKore Repo",
-  "description": "HDKore CloudStream Extension",
+  "name": "Ahmet YouTube",
   "manifestVersion": 1,
   "plugins": [
     {
-      "name": "HDKore",
-      "url": "HDKore",
-      "version": 1
+      "name": "Şeker Aşkı Dizileri",
+      "version": 1,
+      "file": "YouTubeSekeraPlugin.cs3"
     }
   ]
 }
